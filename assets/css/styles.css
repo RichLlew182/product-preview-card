@@ -1,6 +1,13 @@
 /* Variables */
 
-:root {}
+:root {
+
+  --cream: hsl(30, 38%, 92%);
+  --darkCyan: hsl(158, 36%, 37%);
+  --veryDarkBlue: hsl(212, 21%, 14%);
+  --darkGreyishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%)
+}
 
 /* Resets */
 
@@ -69,4 +76,24 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+/* Typography */
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Fraunces;
+  font-weight: 700;
+}
+
+/* Custom Styling */
+
+body {
+  background-color: var(--cream);
 }
