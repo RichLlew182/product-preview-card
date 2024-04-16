@@ -137,6 +137,10 @@ h6 {
   font-size: 32px;
 }
 
+.fs-small {
+  font-size: 12px;
+}
+
 
 /* Typography */
 
@@ -176,6 +180,7 @@ main {
   align-items: center;
   width: 100%;
   min-height: 100vh;
+  padding: 35px 0;
 }
 
 button.order-button {
@@ -203,7 +208,6 @@ button.order-button {
   -o-transition: ease .3s;
   transition: ease .3s;
   cursor: pointer;
-  ;
 }
 
 button.order-button:hover {
@@ -215,7 +219,7 @@ button.order-button:hover {
 }
 
 .attribution {
-  position: absolute;
+  position: relative;
   bottom: 0;
   padding: 25px 15px;
   text-align: center;
@@ -340,7 +344,7 @@ button.order-button:hover {
 @media (min-width: 992px) {
 
   .container {
-    width: 900px;
+    width: 600px;
   }
 
   #productCard {
@@ -358,12 +362,5 @@ button.order-button:hover {
 
   #productInfo {
     width: 50%;
-  }
-}
-
-@media (min-width: 1200px) {
-
-  .container {
-    width: 600px;
   }
 }
